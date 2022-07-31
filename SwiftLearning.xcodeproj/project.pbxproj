@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F57A21B2896540000E905D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F57A21A2896540000E905D0 /* main.swift */; };
 		7FAA0203289544EE0099F730 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA0202289544EE0099F730 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7F57A2162896540000E905D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		7FAA01FD289544EE0099F730 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +33,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7FAA01FF289544EE0099F730 /* SwiftLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLearning; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F57A2182896540000E905D0 /* Basic Opertors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic Opertors"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F57A21A2896540000E905D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7FAA01FF289544EE0099F730 /* The Basics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The Basics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FAA0202289544EE0099F730 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F57A2152896540000E905D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FAA01FC289544EE0099F730 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F57A2192896540000E905D0 /* Basic Opertors */ = {
+			isa = PBXGroup;
+			children = (
+				7F57A21A2896540000E905D0 /* main.swift */,
+			);
+			path = "Basic Opertors";
+			sourceTree = "<group>";
+		};
 		7FAA01F6289544EE0099F730 = {
 			isa = PBXGroup;
 			children = (
-				7FAA0201289544EE0099F730 /* SwiftLearning */,
+				7FAA0201289544EE0099F730 /* The Basics */,
+				7F57A2192896540000E905D0 /* Basic Opertors */,
 				7FAA0200289544EE0099F730 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +77,43 @@
 		7FAA0200289544EE0099F730 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FAA01FF289544EE0099F730 /* SwiftLearning */,
+				7FAA01FF289544EE0099F730 /* The Basics */,
+				7F57A2182896540000E905D0 /* Basic Opertors */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FAA0201289544EE0099F730 /* SwiftLearning */ = {
+		7FAA0201289544EE0099F730 /* The Basics */ = {
 			isa = PBXGroup;
 			children = (
 				7FAA0202289544EE0099F730 /* main.swift */,
 			);
-			path = SwiftLearning;
+			path = "The Basics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FAA01FE289544EE0099F730 /* SwiftLearning */ = {
+		7F57A2172896540000E905D0 /* Basic Opertors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAA0206289544EE0099F730 /* Build configuration list for PBXNativeTarget "SwiftLearning" */;
+			buildConfigurationList = 7F57A21C2896540000E905D0 /* Build configuration list for PBXNativeTarget "Basic Opertors" */;
+			buildPhases = (
+				7F57A2142896540000E905D0 /* Sources */,
+				7F57A2152896540000E905D0 /* Frameworks */,
+				7F57A2162896540000E905D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Opertors";
+			productName = "Basic Opertors";
+			productReference = 7F57A2182896540000E905D0 /* Basic Opertors */;
+			productType = "com.apple.product-type.tool";
+		};
+		7FAA01FE289544EE0099F730 /* The Basics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAA0206289544EE0099F730 /* Build configuration list for PBXNativeTarget "The Basics" */;
 			buildPhases = (
 				7FAA01FB289544EE0099F730 /* Sources */,
 				7FAA01FC289544EE0099F730 /* Frameworks */,
@@ -77,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftLearning;
+			name = "The Basics";
 			productName = SwiftLearning;
-			productReference = 7FAA01FF289544EE0099F730 /* SwiftLearning */;
+			productReference = 7FAA01FF289544EE0099F730 /* The Basics */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -92,6 +138,9 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					7F57A2172896540000E905D0 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					7FAA01FE289544EE0099F730 = {
 						CreatedOnToolsVersion = 13.4;
 					};
@@ -110,12 +159,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FAA01FE289544EE0099F730 /* SwiftLearning */,
+				7FAA01FE289544EE0099F730 /* The Basics */,
+				7F57A2172896540000E905D0 /* Basic Opertors */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F57A2142896540000E905D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F57A21B2896540000E905D0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FAA01FB289544EE0099F730 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,6 +185,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7F57A21D2896540000E905D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82FV6E3SPL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F57A21E2896540000E905D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82FV6E3SPL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		7FAA0204289544EE0099F730 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -265,6 +345,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F57A21C2896540000E905D0 /* Build configuration list for PBXNativeTarget "Basic Opertors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F57A21D2896540000E905D0 /* Debug */,
+				7F57A21E2896540000E905D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7FAA01FA289544EE0099F730 /* Build configuration list for PBXProject "SwiftLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -274,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FAA0206289544EE0099F730 /* Build configuration list for PBXNativeTarget "SwiftLearning" */ = {
+		7FAA0206289544EE0099F730 /* Build configuration list for PBXNativeTarget "The Basics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FAA0207289544EE0099F730 /* Debug */,

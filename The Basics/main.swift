@@ -9,7 +9,7 @@ import Foundation
 
 // The Basic
 // https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
-
+// https://swiftgg.gitbook.io/swift/swift-jiao-cheng/01_the_basics
 
 // MARK: 常量和变量
 /**
