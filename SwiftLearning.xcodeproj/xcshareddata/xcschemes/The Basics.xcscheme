@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FAA01FE289544EE0099F730"
-               BuildableName = "The basic"
+               BuildableName = "The Basics"
                BlueprintName = "The Basics"
                ReferencedContainer = "container:SwiftLearning.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FAA01FE289544EE0099F730"
-            BuildableName = "The basic"
+            BuildableName = "The Basics"
             BlueprintName = "The Basics"
             ReferencedContainer = "container:SwiftLearning.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FAA01FE289544EE0099F730"
-            BuildableName = "The basic"
+            BuildableName = "The Basics"
             BlueprintName = "The Basics"
             ReferencedContainer = "container:SwiftLearning.xcodeproj">
          </BuildableReference>
